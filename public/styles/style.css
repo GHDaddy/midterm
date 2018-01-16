@@ -1,0 +1,92 @@
+@@font-face {
+  font-family: font;
+  src: url(fonts/Junction.woff2);
+}
+
+body{
+  background-color: teal;
+}
+
+#headerstuff{
+  color: white;
+  padding: 2%;
+}
+
+#cell{
+  border: solid white;
+}
+
+#transaction{
+  font-size: 1.5rem;
+}
+
+#header{
+  font-size: 1em;
+}
+
+#buttons{
+  padding: 2%;
+  text-align: center;
+
+  font-family: font;
+}
+
+#lowerButtons{
+  padding-left: 2%;
+  padding-right: 2%;
+
+  font-family: font;
+}
+
+
+#button{
+  background-color: gray;
+}
+#sidebutton{
+  background-color: lightgray;
+}
+#badbutton{
+  background-color: red;
+}
+
+
+
+/*Tablet*/
+@media screen and (min-width: 640px) and (max-width: 1023px){
+  .button{
+    font-size: 1rem;
+  }
+  #buttons{
+    padding: 4%;
+  }
+
+  #header{
+    font-size: 1.4rem;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px){
+  .button{
+    font-size: 1rem;
+  }
+  #buttons{
+    padding: 4%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  #lowerButtons{
+    margin-top: 20%;
+  }
+
+
+  #wellsFago{
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  #header{
+    font-size: 1.4rem;
+  }
+}
